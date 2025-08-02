@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #0073e6;
+  color: white;
+  padding: 15px 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  margin: 0;
+  font-size: 24px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url('india1.jpg') no-repeat center center/cover;
+  color: white;
+}
+.gallery,
+.booking-section {
+  text-align: center;
+  padding: 50px;
+}
+.image-grid,
+.booking-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.image-grid img,
+.booking-grid img {
+  width: 30%;
+  border-radius: 10px;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+input,
+textarea,
+button,
+select {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+button {
+  background: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#formMessage {
+  text-align: center;
+  color: green;
+  display: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="CssFile.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1 class="brand">India Tour</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="home" class="hero">
+    <h2>Explore the World</h2>
+    <p>Your adventure starts here.</p>
+  </section>
+  <section id="destinations" class="gallery">
+    <h2>Popular Destinations</h2>
+    <div class="image-grid">
+      <img src="img1.jpg" alt="Destination 1" />
+      <img src="img2.jpg" alt="Destination 2" />
+      <img src="img3.jpg" alt="Destination 3" />
+    </div>
+  </section>
+  <section id="booking" class="booking-section">
+    <h2>Car & Hotel Booking</h2>
+    <h3>Car Booking</h3>
+    <div class="booking-grid">
+      <img src="car1.jpg" alt="Car 1" />
+      <img src="car2.jpg" alt="Car 2" />
+      <img src="car3.jpg" alt="Car 3" />
+    </div>
+    <form id="carForm">
+      <select required>
+        <option value="">Select Car</option>
+        <option>Sedan</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+      </select>
+      <button type="submit">Book Car</button>
+    </form>
+    <h3>Hotel Booking</h3>
+    <div class="booking-grid">
+      <img src="hotel1.jpg" alt="Hotel 1" />
+      <img src="hotel2.jpg" alt="Hotel 2" />
+      <img src="hotel3.jpg" alt="Hotel 3" />
+    </div>
+    <form id="hotelForm">
+      <select required>
+        <option value="">Select Hotel</option>
+        <option>Budget Hotel</option>
+        <option>Luxury Hotel</option>
+        <option>Resort</option>
+      </select>
+      <button type="submit">Book Hotel</button>
+    </form>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage">Thank you for your message!</p>
+  </section>
+  <script src="JavaScript.js"></script>
+</body>
+</html>
